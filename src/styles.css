@@ -1,0 +1,31 @@
+.container {
+  font-family: fantasy;
+}
+
+.card {
+  padding: 20px;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+#exampleInputCity {
+  max-width: 350px;
+  display: inline;
+}
+
+#cityInfo {
+  color: gray;
+  font-size: 20px;
+}
+p.degree {
+  color: black;
+  font-weight: bold;
+  font-size: 40px;
+}
+p#detail {
+  color: gray;
+  position: absolute;
+  top: 110px;
+  right: 200px;
+}
