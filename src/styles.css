@@ -1,5 +1,5 @@
 .container {
-  font-family: fantasy;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .card {
@@ -28,4 +28,9 @@ p#detail {
   position: absolute;
   top: 110px;
   right: 200px;
+}
+.source {
+  text-align: center;
+  font-size: small;
+  margin-top: 0px;
 }
