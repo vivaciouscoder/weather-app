@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <form>
+          <div class="mb-3">
+            <input
+              type="text"
+              class="form-control"
+              id="exampleInputCity"
+              placeholder="Type a city ..."
+              autofocus
+            />
+            <button type="submit" id="submit" class="btn btn-primary">
+              Submit
+            </button>
+            <button type="button" id="current" class="btn btn-success">Current</button>
+          </div>
+        </form>
+        <h1>Istanbul</h1>
+        <h4 id="cityInfo">
+          Tuesday 11:40
+          <br />
+        </h4>
+        <p class="degree">
+      
+         
+            <span class="baseTemp">19° C</span>
+            
+           
+          </span>
+        </p>
+        <p id="detail">
+          Feels Like: 35° <br />
+          Humidity: 50%
+        </p>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
